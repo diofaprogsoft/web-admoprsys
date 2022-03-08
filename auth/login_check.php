@@ -21,7 +21,7 @@ if ($user_valid) {
     $_SESSION['log_akses'] = $user_valid['Akses'];
 
     session_commit();
-    header('location:'.$basePath.'./beranda.php');
+    header('location:'.$basePath.'admoprsys/beranda.php');
     
 } else {
     echo "<script>alert('Maaf, proses masuk gagal, Id Pengguna atau Kata Kunci yang anda masukkan tidak sesuai!.');document.location='".$basePath."index.php'</script>";
