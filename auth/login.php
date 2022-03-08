@@ -2,6 +2,8 @@
 $basePath = 'http://' . $_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . '/admoprsys/';
 
 session_start();
+session_commit();
+
 if (isset($_SESSION['log_id'])) {
     header('location:' . $basePath . 'beranda.php');
 }
