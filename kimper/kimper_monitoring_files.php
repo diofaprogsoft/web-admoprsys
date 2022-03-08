@@ -38,7 +38,7 @@ include '../includes/header.php';
                         </a>
                     <?php } ?>
 
-                    <a type="button" class="btn btn-sm btn-info btn-icon-split" href="<?php $basePath ?>/admoprsys-ckmifa/kimper/kimper_monitoring_other.php">
+                    <a type="button" class="btn btn-sm btn-info btn-icon-split" href="<?php $basePath ?>/admoprsys/kimper/kimper_monitoring_other.php">
                         <span class="icon text-white-50">
                             <i class="fas fa-list"></i>
                         </span>
