@@ -1,5 +1,13 @@
 <?php
 $basePath = 'http://' . $_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . '/admoprsys-ckmifa/';
+
+if (!isset($_SESSION['log_id'])) {
+
+    echo "<script>alert('Maaf, sesi anda sudah berakhir. Silahkan lakukan proses masuk kembali.');document.location='" . $basePath . "index.php'</script>";
+
+} else {
+    header('location:'.$basePath.'admoprsys/beranda.php');
+}
 ?>
 
 <!DOCTYPE html>
