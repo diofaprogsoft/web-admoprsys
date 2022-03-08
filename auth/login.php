@@ -1,5 +1,5 @@
 <?php
-$basePath = 'http://' . $_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . '/admoprsys-ckmifa/';
+$basePath = 'http://' . $_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . '/admoprsys/';
 
 session_start();
 if (isset($_SESSION['log_id'])) {

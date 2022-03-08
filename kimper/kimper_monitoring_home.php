@@ -1,6 +1,6 @@
 <?php
 $title = 'Kimper';
-$basePath = 'http://' . $_SERVER['SERVER_NAME'] . '/admoprsys-ckmifa/';
+$basePath = 'http://' . $_SERVER['SERVER_NAME'] . '/admoprsys/';
 include '../includes/header.php';
 ?>
 
