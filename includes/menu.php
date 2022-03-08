@@ -19,7 +19,7 @@ $basePath = 'http://' . $_SERVER['SERVER_NAME'].':'.$_SERVER['SERVER_PORT'].'/ad
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item">
-        <a class="nav-link" href="<?php $basePath ?>admoprsys/beranda.php">
+        <a class="nav-link" href="<?php $basePath ?>/admoprsys/beranda.php">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Beranda</span></a>
     </li>
@@ -41,13 +41,13 @@ $basePath = 'http://' . $_SERVER['SERVER_NAME'].':'.$_SERVER['SERVER_PORT'].'/ad
         <div id="kimper" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Monitoring</h6>
-                <a class="collapse-item" href="<?php $basePath ?>admoprsys/kimper/kimper_monitoring_home.php">Proses</a>
-                <a class="collapse-item" href="<?php $basePath ?>admoprsys/kimper/kimper_monitoring_expired.php">Masa Berlaku</a>
-                <a class="collapse-item" href="<?php $basePath ?>admoprsys/kimper/kimper_monitoring_files.php">Bahan Pendukung</a>
+                <a class="collapse-item" href="<?php $basePath ?>/admoprsys/kimper/kimper_monitoring_home.php">Proses</a>
+                <a class="collapse-item" href="<?php $basePath ?>/admoprsys/kimper/kimper_monitoring_expired.php">Masa Berlaku</a>
+                <a class="collapse-item" href="<?php $basePath ?>/admoprsys/kimper/kimper_monitoring_files.php">Bahan Pendukung</a>
                 <div class="collapse-divider"></div>
                 <h6 class="collapse-header">Berkas</h6>
                 <a class="collapse-item" href="#!">Pengajuan</a>
-                <a class="collapse-item" href="<?php $basePath ?>admoprsys/kimper/kimper_archive.php">Arsip Kimper</a>
+                <a class="collapse-item" href="<?php $basePath ?>/admoprsys/kimper/kimper_archive.php">Arsip Kimper</a>
             </div>
         </div>
     </li>
