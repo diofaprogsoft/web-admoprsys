@@ -1,7 +1,7 @@
 <?php
 $basePath = 'http://' . $_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . '/admoprsys/';
 
-if (isset($_SESSION['log_id'])) {
+if (!isset($_SESSION['log_id'])) {
 
     header('location:'.$basePath.'admoprsys/beranda.php');
     
