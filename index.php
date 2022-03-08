@@ -3,7 +3,7 @@ $basePath = 'http://' . $_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] 
 
 if (!isset($_SESSION['log_id'])) {
 
-    header('location:'.$basePath.'admoprsys/beranda.php');
+    header('location:'.$basePath.'index.php');
     
 } else {
     echo "<script>alert('Maaf, sesi anda sudah berakhir. Silahkan lakukan proses masuk kembali.');document.location='" . $basePath . "index.php'</script>";
